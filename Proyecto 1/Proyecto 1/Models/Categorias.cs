@@ -17,10 +17,10 @@ namespace Proyecto_1.Models
         public int id { get; set; }
 
         [Required]
-        [StringLength(255)]
+        [StringLength(50)]
         public string Nombre { get; set; }
 
-        [StringLength(255)]
+        [StringLength(200)]
         public string Descripcion { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

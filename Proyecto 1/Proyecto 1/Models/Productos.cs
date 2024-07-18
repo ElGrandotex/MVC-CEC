@@ -13,12 +13,14 @@ namespace Proyecto_1.Models
         public int CategoriaId { get; set; }
 
         [Required]
-        [StringLength(255)]
+        [StringLength(50)]
         public string Nombre { get; set; }
 
-        [StringLength(255)]
+        [StringLength(200)]
         public string Descripcion { get; set; }
 
+        [Required]
+        [DataType(DataType.Currency)]
         public decimal Valor { get; set; }
 
         public bool Activo { get; set; }
