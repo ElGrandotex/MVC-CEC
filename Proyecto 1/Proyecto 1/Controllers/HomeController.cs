@@ -8,6 +8,11 @@ namespace Proyecto_1.Controllers
 {
     public class HomeController : Controller
     {
+
+        public ActionResult MiPrimeraVista()
+        {
+            return View();
+        }
         public ActionResult Index()
         {
             return View();
